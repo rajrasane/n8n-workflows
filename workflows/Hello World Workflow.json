@@ -90,7 +90,7 @@
             "userId": "49966468-27d4-478b-9bd7-0526ed57fa19",
             "projectId": "OYT2qD1mpCZNyofk",
             "user": {
-              "updatedAt": "2025-10-28T04:14:48.000Z",
+              "updatedAt": "2025-10-28T05:22:44.300Z",
               "createdAt": "2025-10-27T14:27:18.399Z",
               "id": "49966468-27d4-478b-9bd7-0526ed57fa19",
               "email": "rasaneraj04@gmail.com",
@@ -102,7 +102,9 @@
                 "personalization_survey_n8n_version": "1.117.2"
               },
               "settings": {
-                "userActivated": false
+                "userActivated": true,
+                "firstSuccessfulWorkflowId": "uQvQfYEIpp4HOT4P",
+                "userActivatedAt": 1761628958297
               },
               "disabled": false,
               "mfaEnabled": false,
