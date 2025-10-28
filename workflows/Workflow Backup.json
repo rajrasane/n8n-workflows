@@ -185,7 +185,7 @@
         ]
       ]
     },
-    "Daily @ 2 AM": {
+    "Test Schedule - 10:52 AM IST": {
       "main": [
         [
           {
@@ -273,8 +273,8 @@
       "webhookId": "1e05ba21-311e-4071-affc-cfea9722b567",
       "credentials": {
         "githubApi": {
-          "id": null,
-          "name": "GitHub"
+          "id": "SXa3gHmcJojukRXe",
+          "name": "GitHub account"
         }
       },
       "continueOnFail": true
@@ -395,8 +395,8 @@
       "webhookId": "b0eafd9f-f5a5-4335-8217-2076ff370214",
       "credentials": {
         "githubApi": {
-          "id": null,
-          "name": "GitHub"
+          "id": "SXa3gHmcJojukRXe",
+          "name": "GitHub account"
         }
       }
     },
@@ -420,8 +420,8 @@
       "webhookId": "62eec2b8-70a8-4773-bf44-1d07766c1bc9",
       "credentials": {
         "githubApi": {
-          "id": null,
-          "name": "GitHub"
+          "id": "SXa3gHmcJojukRXe",
+          "name": "GitHub account"
         }
       }
     },
@@ -490,13 +490,14 @@
         "triggerTimes": {
           "item": [
             {
-              "hour": 2
+              "hour": 10,
+              "minute": 52
             }
           ]
         }
       },
       "id": "5ab6616c-21c1-4b4f-88c9-a13e6baac385",
-      "name": "Daily @ 2 AM",
+      "name": "Test Schedule - 10:52 AM IST",
       "type": "n8n-nodes-base.cron",
       "position": [
         -800,
@@ -558,6 +559,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 1,
-  "updatedAt": "2025-10-28T04:33:06.000Z",
-  "versionId": "18089c0a-1a0c-4662-a327-fae0879f0d6b"
+  "updatedAt": "2025-10-28T05:19:56.797Z",
+  "versionId": "57dfdf25-7a29-4467-b9f0-3dd823500af7"
 }
