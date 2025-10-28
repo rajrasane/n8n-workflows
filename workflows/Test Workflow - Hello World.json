@@ -39,7 +39,7 @@
           "string": [
             {
               "name": "message",
-              "value": "Hello World! This is a test workflow."
+              "value": "Hello World! This workflow has been MODIFIED! 🚀"
             },
             {
               "name": "timestamp",
@@ -47,7 +47,15 @@
             },
             {
               "name": "status",
-              "value": "success"
+              "value": "updated"
+            },
+            {
+              "name": "version",
+              "value": "2.0"
+            },
+            {
+              "name": "changeLog",
+              "value": "Added new fields and updated message"
             }
           ]
         }
@@ -62,11 +70,11 @@
   ],
   "pinData": null,
   "settings": {
-    "executionOrder": "v1",
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true,
     "saveDataErrorExecution": "all",
     "saveDataSuccessExecution": "all",
-    "saveManualExecutions": true,
-    "saveExecutionProgress": true
+    "executionOrder": "v1"
   },
   "shared": [
     {
@@ -117,6 +125,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
-  "updatedAt": "2025-10-28T04:36:52.600Z",
-  "versionId": "9bb327f0-dccf-4333-99c4-23255c84ec4b"
+  "updatedAt": "2025-10-28T04:44:46.994Z",
+  "versionId": "e181d9e3-e59a-4bd4-a103-562169aab539"
 }
