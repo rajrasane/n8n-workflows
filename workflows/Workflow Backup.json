@@ -185,7 +185,7 @@
         ]
       ]
     },
-    "Daily @ 2:00 AM IST": {
+    "Daily @ 11:00 PM IST": {
       "main": [
         [
           {
@@ -490,13 +490,13 @@
         "triggerTimes": {
           "item": [
             {
-              "hour": 2
+              "hour": 23
             }
           ]
         }
       },
       "id": "e9f356d7-b736-40b2-a339-68e9eae11633",
-      "name": "Daily @ 2:00 AM IST",
+      "name": "Daily @ 11:00 PM IST",
       "type": "n8n-nodes-base.cron",
       "position": [
         -800,
@@ -560,7 +560,7 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
-  "updatedAt": "2025-11-18T09:53:53.579Z",
-  "versionCounter": 6,
-  "versionId": "794f31c8-103c-44f8-9ea1-8e73b19c07ba"
+  "updatedAt": "2025-11-18T09:55:49.000Z",
+  "versionCounter": 8,
+  "versionId": "178ad602-27d9-4c56-9d6c-4f2afff67d68"
 }
