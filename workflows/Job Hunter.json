@@ -1,0 +1,126 @@
+{
+  "active": false,
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Download file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-11-18T10:27:31.497Z",
+  "id": "B4qJhyDHS2PzYBVO",
+  "isArchived": true,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "name": "Job Hunter",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -336,
+        -160
+      ],
+      "id": "aa793e4c-6531-46ca-8be9-6cd9dc30ea66",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "value": "https://drive.google.com/file/d/1Nkv40gzewdY6Z5Dq31slBqJgJlhNe9sk/view?usp=drive_link",
+          "mode": "url"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        -176,
+        -144
+      ],
+      "id": "44050748-066a-4deb-a213-b9c03081b2d3",
+      "name": "Download file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "rNbII8dsCIsdnzF9",
+          "name": "Google Drive account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "shared": [
+    {
+      "updatedAt": "2025-11-18T10:27:31.502Z",
+      "createdAt": "2025-11-18T10:27:31.502Z",
+      "role": "workflow:owner",
+      "workflowId": "B4qJhyDHS2PzYBVO",
+      "projectId": "DEyJR10dGx79YVix",
+      "project": {
+        "updatedAt": "2025-11-18T09:32:19.196Z",
+        "createdAt": "2025-11-18T09:28:22.548Z",
+        "id": "DEyJR10dGx79YVix",
+        "name": "Raj Rasane <rasaneraj04@gmail.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null,
+        "projectRelations": [
+          {
+            "updatedAt": "2025-11-18T09:28:22.548Z",
+            "createdAt": "2025-11-18T09:28:22.548Z",
+            "userId": "90066770-b46d-4a8b-abef-5f478207387d",
+            "projectId": "DEyJR10dGx79YVix",
+            "user": {
+              "updatedAt": "2025-11-18T12:16:14.000Z",
+              "createdAt": "2025-11-18T09:28:22.060Z",
+              "id": "90066770-b46d-4a8b-abef-5f478207387d",
+              "email": "rasaneraj04@gmail.com",
+              "firstName": "Raj",
+              "lastName": "Rasane",
+              "personalizationAnswers": {
+                "version": "v4",
+                "personalization_survey_submitted_at": "2025-11-18T09:32:22.349Z",
+                "personalization_survey_n8n_version": "1.119.2"
+              },
+              "settings": {
+                "userActivated": false,
+                "easyAIWorkflowOnboarded": true
+              },
+              "disabled": false,
+              "mfaEnabled": false,
+              "lastActiveAt": "2025-11-18",
+              "isPending": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-11-18T12:13:41.000Z",
+  "versionCounter": 9,
+  "versionId": "daeafcc9-c602-4e02-bc13-e41150de60cd"
+}
