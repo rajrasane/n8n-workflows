@@ -760,7 +760,7 @@
             "userId": "90066770-b46d-4a8b-abef-5f478207387d",
             "projectId": "DEyJR10dGx79YVix",
             "user": {
-              "updatedAt": "2025-11-18T12:16:14.000Z",
+              "updatedAt": "2025-11-19T07:15:41.000Z",
               "createdAt": "2025-11-18T09:28:22.060Z",
               "id": "90066770-b46d-4a8b-abef-5f478207387d",
               "email": "rasaneraj04@gmail.com",
@@ -777,7 +777,7 @@
               },
               "disabled": false,
               "mfaEnabled": false,
-              "lastActiveAt": "2025-11-18",
+              "lastActiveAt": "2025-11-19",
               "isPending": false
             }
           }
